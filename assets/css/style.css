@@ -1,0 +1,71 @@
+/* :root {
+    --purple: rgb(190, 49, 190);
+} */
+
+* {
+    background-color: rgb(102, 128, 0);
+    color: rgb(226, 243, 249);
+}
+
+nav {
+    display: inline;
+    justify-content: right;
+    margin-left: 76%;
+    padding: 5px;
+    position: relative;
+    top: 18px;
+    background-color: rgb(244, 73, 73);
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: rgb(32, 180, 244);
+    color: black;
+    border: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(246, 95, 95);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 8% 0px 8%;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    color: black;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 3px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+
+nav:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.05);
+    background-color: rgb(162, 162, 162);
+    border-radius: 5px;
+    cursor: pointer;
+}

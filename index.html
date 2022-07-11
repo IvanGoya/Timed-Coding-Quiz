@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <title>JavaScript Quiz</title>
+
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    
 </head>
-    
 <body>
-    <nav>
-        
+    <nav id="scores-button">
+        High Scores
     </nav>
-
-    <header>
-        
+    <header id="heading">
+        <h1>JavaScript Quiz</h1> 
     </header>
-
-    <main>
-        
-    </main>
-
-
-    
+    <section id="question-area">
+        <h2 id="question">
+            Welcome to the JavaScript trivia quiz.  Ready to test your knowledge? This quiz contains 10 multiple choice questions and you are given exactly 100 seconds to complete it. Each question you miss takes 10 seconds off the clock.  Each question is also worth 10 points, and every second remaining on the clock will count as an additional point. Good luck!
+        </h2>
+        <ul id="answers">
+            <li id="start-button">Start Quiz!</li>
+        </ul>
+    </section>
+    <script src="./assets/js/script.js"> </script>
 </body>
 </html>
